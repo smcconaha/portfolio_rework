@@ -6,12 +6,12 @@ const AboutMe = () => {
     <div className='container py-5'>
         <div className='row'>
             <div className='col-lg-6 col-xm-12'>
-                <div className='profileImg'>
-                <img src={profilePic} alt='profile picture of Steven McConaha'/>
+                <div className='photo-wrap mb-5'>
+                    <img className='profile-img'src={profilePic} alt='profile picture of Steven McConaha'/>
                 </div>
             </div>
             <div className='col-lg-6 col-xm-12'>
-                <h1>About me</h1>
+                <h1 className='about-heading'>About me</h1>
                 <p>
                     Welcome, I am Steven and I have worked in Finance, Project Management and Engineering Management rolls for the last 10 years.
 
