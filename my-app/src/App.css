@@ -31,7 +31,7 @@ body {
 }
 
 .App-link {
-  color: #61dafb;
+  color: #26B9FF;
 }
 
 @keyframes App-logo-spin {
@@ -63,11 +63,11 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-  border-top: 0.1875rem solid #73B3FA;
+  border-top: 0.1875rem solid #26B9FF;
 }
 
 .navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid #73B3FA;
+  border-top: 0.1875rem solid #26B9FF;
 }
 
 /*Header*/
@@ -94,12 +94,12 @@ nav ul li {
 }
 
 .main-info h1, .main-info h2 {
-  color: #73B3FA;
+  color: #26B9FF;
   text-transform: uppercase;
 }
 
 .btn-main-offer {
-  border: 1px solid #ef4035;
+  border: 1px solid#FC9E2D;
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
@@ -109,7 +109,7 @@ nav ul li {
 
 .btn-main-offer:hover {
   text-decoration: none;
-  background-color: #ef4035;
+  background-color: #FC9E2D;
   color: #fff;
 }
 
@@ -118,11 +118,11 @@ nav ul li {
   width: 16rem;
   border-radius: 50%;
   padding: 0.3rem;
-  border: 1px solid #73B3FA;
+  border: 1px solid #26B9FF;
 }
 
 .about-heading {
-  color:#73B3FA;
+  color:#26B9FF;
   text-transform: uppercase;
 }
 
@@ -134,13 +134,13 @@ photo-wrap {
 
 /*Portfolio*/
 .portfolio-wrapper {
-  background: grey;
+  background: #D4D1CD;
   padding: 3rem 0;
 }
 
 .portfolio-img {
   width: 15rem;
-  border: 1px solid #ef4035;
+  border: 1px solid #FC9E2D;
   padding: 0 0.5rem;
 }
 
@@ -156,7 +156,7 @@ photo-wrap {
   width: 15rem;
   height: 8rem;
   top: 0;
-  border: 1px solid #ef4035;
+  border: 1px solid #FC9E2D;
   cursor: pointer;
 }
 
@@ -169,7 +169,7 @@ photo-wrap {
   opacity: 0;
   margin-left: -8rem;
   margin-top: 3.6rem;
-  color:  #ef4035;
+  color:  #FC9E2D;
   font-size: 1.5rem;
 }
 
@@ -177,4 +177,91 @@ photo-wrap {
   opacity: 70%;
   transition: 0.3s ease-in-out;
   cursor: pointer;
+}
+
+/*Contact*/
+
+.contact {
+  background: #000000;
+  padding: 3rem 0;
+}
+
+.contact h1 {
+  color: #FC9E2D;
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contact p {
+  color: #D4D1CD;
+  font-size: 1.2rem;
+}
+
+/*Contact Form*/
+
+.contact input, .contact textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 0.125rem solid #D4D1CD;
+  border-radius: 0;
+  color: #D4D1CD;
+  outline: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
+}
+
+.contact .container {
+  padding: 4rem 0;
+}
+
+.contact input:focus, .contact textarea:focus {
+  background: transparent;
+  color: #FC9E2D;
+  border-bottom: #D4D1CD;
+}
+
+.contact textarea {
+  height: 12.2rem !important;
+}
+
+.contact-btn {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  background: none;
+}
+
+.line {
+  position: relative;
+  top: -0.8rem;
+  width: 0;
+  height: 0.125rem;
+  background: #FC9E2D;
+  display: inline-block;
+}
+
+input:focus+.line, textarea:focus+.line {
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+input.form-control {
+  margin: -0.3rem 0;
+}
+
+textarea.form-control {
+  margin: -0.3rem 0;
+}
+
+@media(max-width: 768px) {
+  .contacts .container {
+    padding: 0 1rem;
+  }
+
+  .contact p {
+    padding: 0 0.4rem;
+  }
 }
