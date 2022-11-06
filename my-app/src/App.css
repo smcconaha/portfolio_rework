@@ -265,3 +265,22 @@ textarea.form-control {
     padding: 0 0.4rem;
   }
 }
+
+/*Footer*/
+
+.footer {
+  background: #000000;
+  color: #D4D1CD;
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #D4D1CD;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: #FC9E2D;
+}
+
