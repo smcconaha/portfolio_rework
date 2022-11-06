@@ -12,7 +12,6 @@ const Portfolio = () => {
         <div className='container'>
           <h1 className='text-uppercase text-center py-5'>Portfolio</h1>
           <div className='image-box-wrapper row justify-content-center'>
-            <div className='col-10'> 
               <div className='portfolio-img-box'>
                 <img className='portfolio-img' src={mindreader} alt='Mind Reader Project'/>
                 <div className='overflow'></div>
@@ -32,12 +31,11 @@ const Portfolio = () => {
                 <img className='portfolio-img' src='#' alt='Project'/>
                 <div className='overflow'></div>
                 <FontAwesomeIcon className='port-icon' icon={faSearchPlus} />
-              </div> 
-            </div>     
+              </div>    
           </div> 
         </div>
     </div>
   )
 }
 
-export default Portfolio
+export default Portfolio;
