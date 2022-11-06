@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 body {
-  font-family: "Roboto Condensed" sans-serif;
-  
+  font-family: "Roboto Condensed", sans-serif !important;
 }
 
 .App {
@@ -69,4 +68,66 @@ nav ul li {
 
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid #73B3FA;
+}
+
+/*Header*/
+
+.header-wrapper {
+  position: relative;
+  background: url(./images/new_background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 7.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-info h1, .main-info h2 {
+  color: #73B3FA;
+  text-transform: uppercase;
+}
+
+.btn-main-offer {
+  border: 1px solid #ef4035;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: #fff;
+  margin: 2rem;
+}
+
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: #ef4035;
+  color: #fff;
+}
+
+/*Abut Me*/
+.profile-img {
+  width: 16rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 1px solid #73B3FA;
+}
+
+.about-heading {
+  color:#73B3FA;
+  text-transform: uppercase;
+}
+
+photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
