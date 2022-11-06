@@ -131,3 +131,50 @@ photo-wrap {
   justify-content: center;
   align-items: center;
 }
+
+/*Portfolio*/
+.portfolio-wrapper {
+  background: grey;
+  padding: 3rem 0;
+}
+
+.portfolio-img {
+  width: 15rem;
+  border: 1px solid #ef4035;
+  padding: 0 0.5rem;
+}
+
+.portfolio-img-box {
+  position: relative;
+  margin: 1rem;
+}
+
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: #000000;
+  width: 15rem;
+  height: 8rem;
+  top: 0;
+  border: 1px solid #ef4035;
+  cursor: pointer;
+}
+
+.portfolio-img-box:hover .overflow {
+  opacity: 60%;
+}
+
+.port-icon {
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 3.6rem;
+  color:  #ef4035;
+  font-size: 1.5rem;
+}
+
+.portfolio-img-box:hover .port-icon {
+  opacity: 70%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
