@@ -21,7 +21,7 @@ const Contact = () => {
     };
 
     return (
-    <div className='contact'>
+    <div id="contact" className='contact'>
         <div className='text-center'>
             <h1>Contact Me</h1>
             <p>Please fill out the form if you are hiring or would like to contact me for project collaboration.</p>
