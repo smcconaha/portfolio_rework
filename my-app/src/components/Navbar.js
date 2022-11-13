@@ -17,16 +17,16 @@ const Navbar = () => {
                 <li className="nav-item">
                     <Link smooth={true} to="home" className="nav-link" aria-current="page" href="#">Home</Link>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                     <Link smooth={true} to="about"  className="nav-link" href="#">About Me</Link>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                     <Link smooth={true} to="portfolio"  className="nav-link" href="#">Portfolio</Link>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                     <Link smooth={true} to="blog"  className="nav-link" href="#">Blog</Link>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                     <Link smooth={true} to="contact"  className="nav-link" href="#">Contact Me</Link>
                 </li>
             </ul>
